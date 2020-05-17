@@ -2,7 +2,7 @@
 
 IFS=' '
 
-pkgs="vim gcc make git net-tools tmux openssh-server"
+pkgs="gcc-avr binutils-avr avrdude libusb-dev"
 read -ra pkg_arr <<< "$pkgs"
 
 echo "The following packages will be installed using apt:"
