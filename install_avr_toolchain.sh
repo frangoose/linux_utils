@@ -2,7 +2,7 @@
 
 IFS=' '
 
-pkgs="gcc-avr binutils-avr avrdude libusb-dev"
+pkgs="gcc-avr binutils-avr avrdude libusb-dev avr-libc"
 read -ra pkg_arr <<< "$pkgs"
 
 echo "The following packages will be installed using apt:"
